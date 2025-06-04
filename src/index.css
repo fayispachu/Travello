@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+@import "tailwindcss";
+@theme {
+  --font-display: "Finger Paint", sans-serif;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
