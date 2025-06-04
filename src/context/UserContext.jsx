@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const UserContext = createContext();
 export const FRONTEND_URL =
-  "https://travel-with-strangers-final-project-2.onrender.com";
+  "https://travello-backend-x7ot.onrender.com";
 
 export const UsersDetailsProvider = ({ children }) => {
   const [users, setUsers] = useState([]);
